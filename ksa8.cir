@@ -1,0 +1,56 @@
+* C:\Users\roshan\eSim-Workspace\ksa8\ksa8.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 06/17/23 10:42:42
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ Net-_U11-Pad4_ Net-_U11-Pad5_ Net-_U11-Pad6_ Net-_U11-Pad7_ Net-_U11-Pad8_ Net-_U11-Pad9_ Net-_U11-Pad10_ Net-_U11-Pad11_ Net-_U11-Pad12_ Net-_U11-Pad13_ Net-_U11-Pad14_ Net-_U11-Pad15_ Net-_U11-Pad16_ Net-_U11-Pad17_ Net-_U11-Pad18_ Net-_U11-Pad19_ Net-_U11-Pad20_ Net-_U11-Pad21_ Net-_U11-Pad22_ Net-_U11-Pad23_ Net-_U11-Pad24_ Net-_U11-Pad25_ ksa8		
+U18  1 2 3 4 5 6 7 8 Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ Net-_U11-Pad4_ Net-_U11-Pad5_ Net-_U11-Pad6_ Net-_U11-Pad7_ Net-_U11-Pad8_ adc_bridge_8		
+U19  9 10 11 12 13 14 15 16 Net-_U11-Pad9_ Net-_U11-Pad10_ Net-_U11-Pad11_ Net-_U11-Pad12_ Net-_U11-Pad13_ Net-_U11-Pad14_ Net-_U11-Pad15_ Net-_U11-Pad16_ adc_bridge_8		
+U20  Net-_U11-Pad17_ Net-_U11-Pad18_ Net-_U11-Pad19_ Net-_U11-Pad20_ Net-_U11-Pad21_ Net-_U11-Pad22_ Net-_U11-Pad23_ Net-_U11-Pad24_ o1 o2 o3 o4 o5 o6 o7 o8 dac_bridge_8		
+U21  Net-_U11-Pad25_ o9 dac_bridge_1		
+v1  1 GND pulse		
+v2  2 GND pulse		
+v3  3 GND pulse		
+v4  4 GND pulse		
+v5  5 GND pulse		
+v6  6 GND pulse		
+v7  7 GND pulse		
+v8  8 GND pulse		
+v9  9 GND pulse		
+v10  10 GND pulse		
+v11  11 GND pulse		
+v12  12 GND pulse		
+v13  13 GND pulse		
+v14  14 GND pulse		
+v15  15 GND pulse		
+v16  16 GND pulse		
+U3  3 plot_v1		
+U1  2 plot_v1		
+U5  4 plot_v1		
+U7  5 plot_v1		
+U6  14 plot_v1		
+U8  13 plot_v1		
+U4  15 plot_v1		
+U2  16 plot_v1		
+U12  7 plot_v1		
+U9  6 plot_v1		
+U14  8 plot_v1		
+U16  9 plot_v1		
+U15  10 plot_v1		
+U13  11 plot_v1		
+U10  12 plot_v1		
+U17  1 plot_v1		
+U23  o2 plot_v1		
+U22  o1 plot_v1		
+U25  o4 plot_v1		
+U24  o3 plot_v1		
+U27  o6 plot_v1		
+U26  o5 plot_v1		
+U29  o8 plot_v1		
+U28  o7 plot_v1		
+U30  o9 plot_v1		
+
+.end
